@@ -1,0 +1,400 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+    font-family: Avenir Next, Tabarra Light, times
+}
+
+form {
+    
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline;
+    width: 100%;
+    height: 2em;
+    line-height: 2em;
+    font-size: 2em;
+    color: white;
+    background-color: #00adef;
+
+}
+.title2 {
+    text-align: center;
+    text-decoration: underline;
+    width: 100%;
+    height: 2em;
+    line-height: 2em;
+    font-size: 2em;
+    color: white;
+    background-color: #40ad48;
+
+}
+
+.container {
+    border: solid 1.7em #96978b;
+    padding: 1em;
+    margin: 5em;
+}
+
+div.border {
+    border: 30em, 30em;
+    border-color: #96978b;
+}
+input {
+  background-color: #ffffff;
+  color : #96978b;
+  text-align: center;
+  width:15em;
+  }
+
+fieldset.field{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+legend.name {
+    font-size: 1.2em;
+    color: #00adef;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: .8em;
+    
+}
+.select {
+    text-align: center;
+    color: #96978b;
+    width: 15em;
+    height: 2em;
+    overflow: hidden;
+    border: .1em solid #96978b
+   }
+
+
+.buttoncenter {
+    text-align: center;
+}
+.button {
+    text-align: center;
+    background-color: #96978b;
+    border: 1px solid #666;
+    color:#ffffff;
+    text-decoration:none;
+    width: 8em;
+}
+
+.button2 {
+    font-size: 2em;
+    text-align: center;
+    background-color: #96978b;
+    border: 1px solid #666;
+    color:#ffffff;
+    text-decoration:none;
+    width: 10em;
+    height: 2em;
+    margin-bottom: 2em;
+}
+
+input.checkbox {
+    width: 1em;
+    height: 1em;
+    }
+
+
+input.first {
+    margin-bottom: .8em;
+    margin-right: 1em;
+}
+.cartype {
+    margin-bottom: .8em;
+}
+
+
+.radiobutton {
+    width: 1em;
+    margin-left: 6em;
+
+}
+    
+.carbrand {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.carbrandspecial {
+    margin-bottom: 1.5em;
+    text-align: center;
+    padding-right: 4.7em;
+}
+
+.comment {
+    width: 75%;
+    height: 8em;
+}
+
+
+
+/*
+
+body {
+    font-family: Corbel, Cooper Black, times; 
+}
+
+header{
+
+    overflow: hidden;
+}
+
+   
+.imgresize {
+    float: left;
+    width: 13.5em;
+   
+    padding-left: 3em ;
+    padding-top: 3em; 
+}
+
+h1.name {
+    
+    text-align: right;
+    width: 20em;
+    font-size: 3em;
+    float: right;
+    padding-top: 1.5em;
+    padding-right: 1em;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+
+.navigation {
+     
+    display: inline;
+    padding-right: 2em;
+    font-size: 2.2em
+     
+
+}
+
+./*container { 
+float: right;
+text-align: right;
+padding-right: 4em;
+margin-bottom: 3em;
+
+}
+
+
+
+.left { 
+width: 125%;
+}
+
+
+
+.banner {
+    
+    margin-bottom: 3em;
+    padding-left: 10em;
+
+    
+}
+h2.h-one {
+    font-size: 3em;
+}
+
+
+
+
+*/*/
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}000000000
